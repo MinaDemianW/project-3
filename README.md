@@ -7,8 +7,8 @@ This is a interesting game of choice you have two options and you can choose onl
 follow the below insturction for getting started:
 
 ```
-git clone https://github.com/MinaDemianW/reactnd-project-myreads-starter.git
-cd reactnd-project-myreads-starter.git
+git clone https://github.com/MinaDemianW/project-3.git
+cd would-you-rather
 npm install
 npm start
 
