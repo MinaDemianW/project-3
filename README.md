@@ -1,44 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Would You Rather? Project
 
-## Available Scripts
+This is a interesting game of choice you have two options and you can choose only one
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+follow the below insturction for getting started:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+git clone https://github.com/MinaDemianW/reactnd-project-myreads-starter.git
+cd reactnd-project-myreads-starter.git
+npm install
+npm start
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```
 
-### `npm test`
+## Usage
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All you need to do is sign-in by choosing one of the users at `/` and you will be signed-in with the name you chose and redirected to `/home` and see the unanswered polls
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- you can click on `New Question` from navigation to add a new poll
+- you can click on `Leader Board` from navigation to see how you're doing in the compition
+- you can click on `Home` from navigation to go back to home page
+- from the home page you can switch between answered and unanswered question by clicking `Answered` or `Unanswered`
