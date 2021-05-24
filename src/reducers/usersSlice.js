@@ -40,7 +40,7 @@ const usersSlice = createSlice({
         },
         [saveQuestionAnswer.fulfilled]: (state, action) => {
             const question = action.payload
-            state.entities[question.authedUser].answers[question.qid] = question.id
+            state.entities[question.authedUser].answers[question.qid] = question.answer
         }
     }
 })

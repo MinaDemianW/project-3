@@ -171,6 +171,13 @@ nav {
     margin-bottom: 20px;
 }
 
+.new-question-sub-header {
+    padding-top: 2vh;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
 .new-question-form {
     display: flex;
     flex-direction: column;
@@ -319,6 +326,7 @@ label {
 .error-title {
     margin: 0 auto;
     margin-top: 30vh;
+    margin-bottom: 20px;
 }
 
 .error-message {

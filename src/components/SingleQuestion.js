@@ -36,7 +36,7 @@ const SingleQuestion = ({ id }) => {
                 <div className="question-info">
                     <h2>Would You Rather ?</h2>
                     <p>{question.optionOne.text}</p>
-                    <Link to={`/question/${question.id}`} className="question-button">
+                    <Link to={`/questions/${question.id}`} className="question-button">
                         View Poll
                     </Link>
                 </div>

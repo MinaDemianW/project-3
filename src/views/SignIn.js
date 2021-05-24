@@ -5,7 +5,7 @@ import { signIn } from '../reducers/authedUserSlice'
 import { selectAllUsers } from '../reducers/usersSlice'
 import { useHistory } from 'react-router-dom'
 
-const SignIn = () => {
+const SignIn = ({ location }) => {
 
     const dispatch = useDispatch()
     const history = useHistory()
@@ -20,9 +20,7 @@ const SignIn = () => {
         e.preventDefault()
         dispatch(signIn(userName))
         setUserName("")
-        history.push({
-            pathname: '/home'
-        })
+        history.push(location.state === undefined? '/home' : location.state.referrer)
 
     }
 

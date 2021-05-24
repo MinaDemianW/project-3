@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { useHistory } from 'react-router'
 
 import { saveQuestion } from '../reducers/questionsSlice'
 
@@ -7,6 +8,7 @@ const NewQestion = () => {
     
     const dispatch = useDispatch()
     const authedUser = useSelector(state => state.authedUser)
+    const history = useHistory()
     
     const [options, setOptions] = useState({
         optionOne: '',
@@ -34,13 +36,15 @@ const NewQestion = () => {
         setOptions({
         optionOne: '',
         optionTwo: '',
-
         })
+
+        history.push('/home')
     }
 
     return(
          <div>
             <h1 className="new-question-header">Create New Question</h1>
+            <h2 className="new-question-sub-header">Would You Rather</h2>
             <form className="new-question-form"> 
                 <input 
                     className="new-question-input" 
